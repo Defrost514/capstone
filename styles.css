@@ -1,6 +1,6 @@
 body {
     background-color: rgb(204, 213, 174); 
-    font-family: "Geist", sans-serif,"Oswald", sans-serif,"Roboto", sans-serif;}
+    font-family: "Geist", sans-serif,"Oswald", sans-serif,"Roboto", sans-serif, "helvetica";}
 
 p {
     color: black;
@@ -14,10 +14,11 @@ li {
 }
 
 header {
-    color: #000000;
+    background-color: papayawhip;
+    color: #D4A373;
     font-style: italic;
     font-weight: bold;
-    font-size: 100px;
+    font-size: 55px;
 }
 
 
