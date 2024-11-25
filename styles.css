@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(204, 213, 174); 
+    font-family: "Geist", sans-serif,"Oswald", sans-serif,"Roboto", sans-serif;}
+
+p {
+    color: black;
+}
+
+li {
+    color: black;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
