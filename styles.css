@@ -1,9 +1,27 @@
+*{ /*least specific selector universal selector*/
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: rgb(204, 213, 174); 
     font-family: "Geist", sans-serif,"Oswald", sans-serif,"Roboto", sans-serif, "helvetica";}
 
 p {
     color: black;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* parent + space + nested child(target)*/
+
+ol li {
+    color: blue
+
+}
+
+ul li {
+    color: green
 }
 
 li {
@@ -13,6 +31,9 @@ li {
     font-size: 20px;
 }
 
+/* i'm a css comment! */
+/* control forward slash creates a comment shortcut in vscode */
+
 header {
     background-color: papayawhip;
     color: #D4A373;
@@ -21,4 +42,30 @@ header {
     font-size: 55px;
 }
 
+h2, h3, h4 {
+    color: orange;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+footer p { color: grey;
+}
+
+figcaption a {
+    text-decoration: none;
+
+}
+
+/* pseudo-class selector*/
+
+figcaption a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+figcaption a:visited {
+    color: red;
+}
 
