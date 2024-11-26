@@ -1,34 +1,41 @@
 *{ /*least specific selector universal selector*/
-    margin: 0;
-    padding: 0;
+    margin: 20;
+    padding: 20;
 }
 
 body {
     background-color: rgb(204, 213, 174); 
     font-family: "Geist", sans-serif,"Oswald", sans-serif,"Roboto", sans-serif, "helvetica";}
-
+h1 {
+    text-align: center;
+}
 p {
     color: black;
     font-style: oblique;
     font-weight: bold;
     font-size: 20px;
+    line-height: 2;
 }
 /* parent + space + nested child(target)*/
 
 ol li {
-    color: blue
+    color: blue;
+    font-weight: 175;
+    text-align: right;
 
 }
 
 ul li {
-    color: green
+    color: green;
+    text-align:center;
 }
 
 li {
     color: black;
     font-style: oblique;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
+    line-height: 200%;
 }
 
 /* i'm a css comment! */
