@@ -1,6 +1,6 @@
 *{ /*least specific selector universal selector*/
     margin: 20;
-    padding: 20;
+   
 }
 
 body {
@@ -9,7 +9,10 @@ body {
 h1 {
     text-align: center;
 }
-p {
+p { margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 30px;
     color: black;
     font-style: oblique;
     font-weight: bold;
@@ -19,15 +22,16 @@ p {
 /* parent + space + nested child(target)*/
 
 ol li {
-    color: blue;
+    color: black;
     font-weight: 175;
-    text-align: right;
+    text-align: left;
+    margin: 10px 20px 10px;
 
 }
 
 ul li {
-    color: green;
-    text-align:center;
+    color: black;
+    text-align: left;
 }
 
 li {
@@ -42,7 +46,6 @@ li {
 /* control forward slash creates a comment shortcut in vscode */
 
 header {
-    background-color: papayawhip;
     color: #D4A373;
     font-style: italic;
     font-weight: bold;
@@ -50,7 +53,7 @@ header {
 }
 
 h2, h3, h4 {
-    color: orange;
+    color: black;
     font-style: italic;
     font-weight: bold;
     font-size: 30px;
@@ -76,3 +79,53 @@ figcaption a:visited {
     color: red;
 }
 
+.logo {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 30px;
+    padding: 40px;
+    border: 4px solid blue;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color:blue;
+}
+
+.content-box {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+
+}
+
+.border-box {
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    border: 10px solid green;
+    
+}
+
+#footer {
+    background-color: black;
+}
+
+#header {
+    background-color: black;
+}
+
+nav {
+    width: 800px;
+    height: 100px;
+    background-color: #FEFAE0;
+    margin: 30px 50px;
+    padding: 20px 40px;
+    border: 10px solid #D4A373;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: #DDA15E;
+}
