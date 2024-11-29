@@ -114,6 +114,7 @@ figcaption a:hover {
 .rogan-josh {
     margin: 0 auto;
     display: block;
+    
 }
 
 .fusilli-ragu {
@@ -126,6 +127,7 @@ figcaption a:hover {
     background-color: beige;
     margin: 0 auto;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .ragu-container {
@@ -133,6 +135,7 @@ figcaption a:hover {
     background-color: beige;
     margin:0 auto;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .rogan-container {
@@ -140,6 +143,7 @@ figcaption a:hover {
     background-color: beige;
     margin: 0 auto;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .miso-soup {
