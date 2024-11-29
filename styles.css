@@ -1,5 +1,5 @@
 *{ /*least specific selector universal selector*/
-    margin: 20;
+    margin: 40;
    
 }
 
@@ -8,6 +8,11 @@ body {
     font-family: "Geist", sans-serif,"Oswald", sans-serif,"Roboto", sans-serif, "helvetica";}
 h1 {
     text-align: center;
+}
+
+h2 {
+    text-align: center;
+
 }
 p { margin-top: 10px;
     margin-bottom: 5px;
@@ -19,11 +24,30 @@ p { margin-top: 10px;
     font-size: 20px;
     line-height: 2;
 }
-/* parent + space + nested child(target)*/
+
+.about {
+    text-align: center;
+    background-color: rgb(40, 54, 24);
+    box-sizing: border-box;
+    border: 20px solid rgb(96, 108, 56);
+    color: bisque;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.about h2 {
+    color:bisque; 
+}
+.about p {
+    color: bisque;
+}
 
 ol li {
     color: black;
-    font-weight: 175;
+    font-weight: bold;
     text-align: left;
     margin: 10px 20px 10px;
 
@@ -32,6 +56,7 @@ ol li {
 ul li {
     color: black;
     text-align: left;
+    font-style: normal;
 }
 
 li {
@@ -41,9 +66,6 @@ li {
     font-size: 15px;
     line-height: 200%;
 }
-
-/* i'm a css comment! */
-/* control forward slash creates a comment shortcut in vscode */
 
 header {
     color: #D4A373;
@@ -59,6 +81,9 @@ h2, h3, h4 {
     font-size: 30px;
 }
 
+figcaption {
+    text-align: center;
+}
 footer p { color: grey;
 }
 
@@ -67,48 +92,10 @@ figcaption a {
 
 }
 
-/* pseudo-class selector*/
-
 figcaption a:hover {
     text-decoration: underline;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-}
-
-figcaption a:visited {
-    color: red;
-}
-
-.logo {
-    width: 100px;
-    height: 100px;
-    background-color: white;
-    margin: 30px;
-    padding: 40px;
-    border: 4px solid blue;
-    font-weight: bold;
-    font-size: 60px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    color:blue;
-    
-}
-
-.content-box {
-    background-color: green;
-    width: 100px;
-    height: 100px;
-    padding: 10px;
-    margin: 0 auto;
-
-}
-
-.border-box {
-    background-color: greenyellow;
-    width: 100px;
-    height: 100px;
-    border: 10px solid green;
-    
 }
 
 #footer {
@@ -116,29 +103,9 @@ figcaption a:visited {
 }
 
 #header {
-    background-color: black;
+    background-color: rgb(188, 108, 37);
 }
 
-nav {
-    width: 800px;
-    height: 100px;
-    background-color: #FEFAE0;
-    margin: 0 auto;
-    padding: 20px 40px;
-    border: 10px solid #D4A373;
-    font-weight: bold;
-    font-size: 25px;
-    text-align: center;
-    color: #DDA15E;
-    max-width: 80%;
-    display: block;
-
-}
-.frozen-lake {
-    max-width: 100%;
-    margin: 0 auto;
-    display: block;
-}
 .rogan-josh {
     margin: 0 auto;
     display: block;
@@ -148,31 +115,25 @@ nav {
     margin: 0 auto;
     display: block;
 }
-header {
-    background-image:url(images/pine_mushroom-small.jpg) ;
-    width: 100%;
-}
 
-.bg-photo{
-    background-image: url(images/pexels-hellochemo-29344016.jpg);
-    width: 100%;
-    height: 300px;
-    box-sizing: border-box;
-    background-size: contain;
-    background-repeat: repeat;
-    background-position: center;
-    border: 50px solid white;
-    font-weight: bold;
-    font-size: 60px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    color:white;
-    padding: 200px;
+.miso-soup {
+    margin: 0 auto;
+    display: block;
 }
 
 .banner {
-    height: 350px;
-    background-image: url(images/istockphoto-177110818-1024x1024.jpg);
+    height: 200px;
+    background-color: #D4A373;
     background-size: cover;
     background-position: center;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 20px solid white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color:black;
+    padding: 50px;
 }
